@@ -1,3 +1,5 @@
-Hello there,
+# 🍁 Welcome to Developer's Hall.
 
-This repository shall act as a common place for you to showcase your web - based profile cards.
+This repository shall have a massive collection of your very own personalised profile cards.
+
+Here
