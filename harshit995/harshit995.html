@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Harshit</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <link rel="shortcut icon" href="cropped-favicon-1.png" type="image/x-icon">
+   </head>
+   <body>
+      <div class="container">
+         <div class="wrapper">
+            <a href="#">
+            <img src="OQUN8498.JPG" alt="">
+            </a>
+            <div class="title">
+               Harshit Gupta
+            </div>
+            <div class="place">
+               Uttar Pradesh, India
+            </div>
+         </div>
+         <div class="content">
+            <p>
+               User Interface Designer and <br>Front-End developer
+            </p>
+            
+            <div class="buttons">
+               <div class="btn">
+                  <a href="mailto:gharshit89@gmail.com"><button>Mail</button></a> 
+               </div>
+               <div class="btn">
+                  <a href="skills.html" target="_blank"><button>Skills</button></a> 
+               </div>
+            </div>
+         </div>
+         <div class="icons">
+            <li><a href="https://www.facebook.com/guptharshit"><span class="fab fa-facebook-f"></span></a></li>
+            <li><a href="https://github.com/harshit995"><span class="fab fa-github"></span></a></li>
+            <li><a href="https://www.instagram.com/harshit5545/"><span class="fab fa-instagram"></span></a></li>
+            <li><a href="https://www.linkedin.com/in/harshit-gupta-152987158/"><span class="fab fa-linkedin"></span></a></li>
+         </div>
+      </div>
+      <script>
+         const img = document.querySelector("img");
+         const icons = document.querySelector(".icons");
+         img.onclick = function(){
+           this.classList.toggle("active");
+           icons.classList.toggle("active");
+         }
+      </script>
+   </body>
+</html>
